@@ -1,0 +1,39 @@
+.active-friends .active-friend {
+	 overflow: hidden;
+}
+ .active-friends .active-friend .image-active-icon {
+	 overflow-x: scroll;
+	 display: flex;
+	 height: 80px;
+}
+ .active-friends .active-friend .image-active-icon::-webkit-scrollbar {
+	 overflow: hidden;
+}
+ .active-friends .active-friend .image-active-icon .image {
+	 margin: 5px;
+	 position: relative;
+}
+ .active-friends .active-friend .image-active-icon .image img {
+	 width: 38px;
+	 height: 38px;
+	 border-radius: 50%;
+}
+ .active-friends .active-friend .image-active-icon .image .active-icon {
+	 position: absolute;
+	 bottom: 3px;
+	 right: 0px;
+	 width: 10px;
+	 height: 10px;
+	 border-radius: 50%;
+	 background-color: #1bdf35;
+}
+ 
+.active-friends .active-friend .image-active-icon .image h5 {
+	position : absolute;
+	/* top: 200px; */
+	font-weight: 500;
+	left: 3px;
+	color: var(--text-color);
+	
+	
+}

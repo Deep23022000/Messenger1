@@ -1,0 +1,11 @@
+@import './components/designs/base/reset.css';
+@import './components/designs/components/register.css';
+@import './components/designs/utils/utils.css';
+@import './components/designs/components/messenger.css';
+@import './components/designs/layout/grid.css';
+@import './components/designs/components/activeFriend.css';
+@import './components/designs/components/friends.css';
+@import './components/designs/components/rightSide.css';
+@import './components/designs/components/messege.css';
+@import './components/designs/components/messegeSend.css';
+@import './components/designs/components/friendInfo.css';
